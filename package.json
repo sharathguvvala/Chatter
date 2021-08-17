@@ -1,0 +1,25 @@
+{
+  "name": "chatter",
+  "version": "1.0.0",
+  "description": "A web chatting application using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharathguvvala/Chatter.git"
+  },
+  "author": "Sharath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharathguvvala/Chatter/issues"
+  },
+  "homepage": "https://github.com/sharathguvvala/Chatter#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.1.3"
+  }
+}
